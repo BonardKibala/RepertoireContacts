@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+        integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Mon premier pas avec Js</title>
+</head>
+
+<body>
+    <div>
+                <div class="ui fixed menu small inverted blue sizer horizontal segment">
+                    <h1 class="ui header title"> Repertoire de contact</h1>
+                </div> <br><br><br><br><br>
+   
+
+    <div class="ui main container white">
+        <div class="ui grid">
+            <div class="seven wide column blue c-grid">
+                <div class="title">
+                    <h2 class="white">Formulaire de contact</h2>
+                </div>
+            </div>
+            <div class="nine wide column blue c-grid">
+                <h2>Liste de contact</h2>
+            </div>
+        </div>
+        <div class="ui grid ajout">
+            <div class="seven wide column c-grid1">
+                <!-- Formulaire -->
+                <form action="">
+                    <div class="fields">
+                        <div class="ui form fixed">
+                            <div class="field">
+                                <label for="firstName" class="label">Nom</label>
+                                <input type="text" name="firstName" id="firstName">
+                            </div>
+                            <div class="field">
+                                <label for="lastName" class="label">Prénom</label>
+                                <input type="text" name="lastName" id="lastName">
+                            </div>
+                            <div class="field">
+                                <label for="group" class="label">Groupe</label>
+                                <select name="selection" id="group">
+                                    <option value="" disabled hidden selected></option>
+                                    <option value="ClassB">ClassB</option>
+                                    <option value="ClassA">ClassA</option>
+                                </select>
+                            </div>
+                            <div class="field">
+                                <label for="biography" class="label">Biographie</label>
+                                <textarea name="biography" id="biography"></textarea>
+                            </div>
+                        </div>
+                    </div> <br>
+                    <div class="ui grid ">
+                        <div class="six wide column">
+                            <div class="field">
+                                <label for="chooseImage" class="chooseImage">Choisir l'image</label>
+                                <input type="file"  name="chooseImage" id="chooseImage">
+                            </div>
+                        </div>
+                        <div class="four wide column"></div>
+                        <div class="six wide column">
+                            <div class="ui image">
+                                <img src="user.png" id="imgContact" alt="User's image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button type="button" class="ui primary button ajouter">
+                            <i class="icon user"></i>
+                            Créer
+                        </button>
+                        <button type="button" class="ui button red">
+                            <i class="icon cancel"></i>
+                            Réinitialiser
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <!--  -->
+            <!-- <div class="nine wide column c-grid1">
+                <div class="ui grid white-c nine-grid">
+                    <div class="four wide column">
+                        <div class="ui image circular tiny img-circular">
+                            <img src="jlouis.jpeg" alt="image Jean Louis Mbaka">
+                        </div>
+                    </div>
+                    <div class="twelve wide column ">
+
+                        <div class="ui grid">
+                            <div class="fourteen wide column bio">
+                                <h4>firstName lastName</h4>
+                                <h5>Groupe</h5>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                    enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    nisi
+                                </p>
+                            </div>
+                            <div class="two wide column">
+                                <button class="delete-button"><i class="icon delete red"></i></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div> -->
+            <!--  -->
+        </div>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+
+</html>

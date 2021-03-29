@@ -1,0 +1,70 @@
+html{
+box-sizing: border-box;
+background-color: #fff;
+}
+
+.c-grid{
+border: 1px solid #cedbed;
+text-align: center;
+}
+.c-grid1{
+background-color: #f6f6f6 !important;
+border: 1px solid #cedbed;
+max-height: 800px;
+}
+.label{
+color: #a5c6f2 !important;
+}
+.field>input, .field>textarea{
+border: 1px solid #f3f7fe;
+}
+.buttons{
+    text-align: center;
+}
+.buttons button{
+    margin: 30px !important;
+}
+.white-c{
+    background-color:white;
+}
+.nine-grid{
+    border: 1px solid #dae9fb;
+}
+.myOverflow{
+    overflow: auto;
+}
+.img-circular{
+    width: 100vw;
+    height: 100vh;
+}
+.img-circular>img{
+    width: 100% !important;
+}
+p{
+    text-align: justify !important;
+}
+.delete-button{
+    background-color: #fff;
+    border: none !important;
+}
+.delete-button:focus{
+    border: none !important;
+}
+.ajout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+}
+input[type="file"]{
+    display:none;
+}
+.chooseImage{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.chooseImage:hover{
+    cursor: pointer;
+}
